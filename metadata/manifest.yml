@@ -52,7 +52,7 @@ Endpoints:
     Public-Port-Name:  DB_PROXY_PORT
 Install-Build-Required: false
 Version-Overrides:
-  '1.2.4':
+  '2.0.8':
     Display-Name: Cassandra Database 2.0.8
     Provides:
     - cassandra-2.0.8
