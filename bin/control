@@ -44,6 +44,7 @@ function wait_for_cassandrad_availability {
 }
 
 function stop {
+  echo "Stoping Cassandra ... "
   if is_running; then
     pidfile=$OPENSHIFT_CASSANDRA_DIR/pid/cassandra.pid
 
