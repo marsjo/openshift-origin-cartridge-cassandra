@@ -1,15 +1,5 @@
 # OpenShift Cassandra Cartridge
 
-
-``` objc
-    - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-    BRICKOffer *offer = [self.brick offerDetailsForNotification:notification];
-    if (offer) {
-        //... do something with the content received
-    }   
-}
-```
-
 The `cassandra` cartridge provides [Cassandra](http://cassandra.apache.org/) on OpenShift.
 
 ## Versions
